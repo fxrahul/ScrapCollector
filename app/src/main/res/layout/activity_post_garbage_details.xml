@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@drawable/bg_gradient"
+    tools:context=".PostGarbageDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:id="@+id/logout"
+        android:text="Log Out"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="16dp"
+        android:hint="NAME"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+
+        android:id="@+id/et_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="FLAT NO/BLDG NAME"
+        android:layout_margin="10dp"
+
+        android:padding="10dp"
+        android:lines="3"
+        android:maxLines="3"
+
+        android:id="@+id/et_address"
+
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+        android:id="@+id/spn_locality" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="PINCODE"
+        android:layout_margin="10dp"
+
+        android:padding="10dp"
+        android:id="@+id/et_pincode"
+        />
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="CITY"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:background="#2E7D32"
+        android:padding="10dp"
+        /> -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="CONTACT NO"
+        android:layout_margin="10dp"
+
+        android:padding="10dp"
+        android:id="@+id/et_contact"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type of waste"
+        android:gravity="center"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+
+        android:gravity="center"
+
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLASTIC"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/chk_plastic"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAPER"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/chk_paper"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="METAL"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/chk_metal"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Approx Quantity (in kgs) "
+        android:padding="10dp"
+        android:id="@+id/et_quantity"
+        />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/postDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="Go"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "66345990258",
+    "firebase_url": "https://scrap-971a7.firebaseio.com",
+    "project_id": "scrap-971a7",
+    "storage_bucket": "scrap-971a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66345990258:android:52c471fff5907601",
+        "android_client_info": {
+          "package_name": "com.example.scrapcollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66345990258-812684l1hg10ofr8j086ihrl14j7nvd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqb-SqOvzfL0rc6MUU_rrN60gnSwpB4pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66345990258-812684l1hg10ofr8j086ihrl14j7nvd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

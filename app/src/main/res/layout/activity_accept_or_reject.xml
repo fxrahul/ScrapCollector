@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_accept_or_reject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".AcceptOrReject">
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="Reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reject"
+        android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_alignBottom="@+id/accept"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/accept" />
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="26dp"
+        android:height="50dp"
+        android:textSize="25dp"
+        android:id="@+id/name_label" />
+
+    <TextView
+        android:width="300dp"
+        android:height="50dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/name_label"
+        android:layout_toRightOf="@+id/name_label"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:id="@+id/name" />
+
+    <TextView
+
+        android:text="Address:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/address_label"
+        android:layout_below="@+id/name_label"
+        android:height="50dp"
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:height="100dp"
+
+        android:width="300dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/address_label"
+        android:layout_toRightOf="@+id/address_label"
+        android:layout_toEndOf="@+id/address_label"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/address" />
+
+    <TextView
+        android:text="Quantity:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/quantity_text"
+        android:height="50dp"
+        android:textSize="25dp"
+
+        android:width="100dp"
+        android:layout_below="@+id/address"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Area:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantity_text"
+        android:layout_marginTop="27dp"
+
+        android:id="@+id/area_label"
+        android:height="50dp"
+        android:textSize="25dp"
+        android:width="100dp"/>
+
+    <TextView
+        android:text="Pincode:"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/pincode_label"
+        android:height="50dp"
+        android:textSize="25dp"
+        android:width="100dp"
+        android:layout_below="@+id/area_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Waste Type:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+
+        android:id="@+id/waste_type_label"
+        android:layout_below="@+id/pincode_label"
+        android:layout_alignLeft="@+id/name_label"
+        android:layout_alignStart="@+id/name_label"
+        android:height="50dp"
+        android:textSize="20dp"
+        android:width="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/waste_type_label"
+        android:id="@+id/waste_type"
+        android:width="300dp"
+
+        android:height="50dp"
+
+        android:textSize="18dp"
+        android:layout_alignLeft="@+id/pincode"
+        android:layout_alignStart="@+id/pincode" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="Accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accept"
+
+
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_below="@+id/waste_type_label"
+        android:layout_alignLeft="@+id/waste_type_label"
+        android:layout_alignStart="@+id/waste_type_label"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/pincode"
+        android:width="300dp"
+        android:height="50dp"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/pincode_label"
+        android:layout_alignLeft="@+id/address"
+        android:layout_alignStart="@+id/address"
+        android:layout_alignTop="@+id/pincode_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/area"
+        android:width="300dp"
+        android:height="50dp"
+        android:textSize="18dp"
+
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/area_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:width="100dp"
+        android:height="50dp"
+
+
+        android:textSize="18dp"
+        android:layout_alignBaseline="@+id/quantity_text"
+        android:layout_alignBottom="@+id/quantity_text"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

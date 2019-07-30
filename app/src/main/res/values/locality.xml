@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_locality">
+        <item>Select Area</item>
+        <item>Bhayander</item>
+        <item>MiraRoad</item>
+        <item>Dahiser</item>
+        <item>Borivali</item>
+        <item>Kandivali</item>
+        <item>Malad</item>
+        <item>Goregaon</item>
+        <item>Jogeshwari</item>
+        <item>Andheri</item>
+        <item>Dadar</item>
+        <item>Bandra</item>
+    </string-array>
+    
+
+</resources>
